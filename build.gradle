@@ -1,0 +1,26 @@
+subprojects {
+    buildscript {
+        repositories {
+            jcenter()
+            mavenCentral()
+        }
+    }
+
+    group = GROUP
+    version = VERSION_NAME
+
+}
+
+ext {
+    androidPlugin = 'com.android.tools.build:gradle:1.5.0'
+    minSdkVersion = 4
+    compileSdkVersion = 23
+    buildToolsVersion = '23.0.2'
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+}

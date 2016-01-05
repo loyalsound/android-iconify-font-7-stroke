@@ -1,0 +1,46 @@
+buildscript {
+    dependencies {
+        classpath rootProject.ext.androidPlugin
+    }
+}
+
+apply plugin: 'com.android.application'
+
+repositories {
+    jcenter()
+}
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId "com.ls.iconify.fonts.sample"
+        minSdkVersion 8
+        targetSdkVersion rootProject.ext.compileSdkVersion
+        versionCode VERSION_CODE.toInteger()
+        versionName VERSION_NAME
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_6
+        targetCompatibility JavaVersion.VERSION_1_6
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.jakewharton:butterknife:7.0.1'
+
+    compile project(':android-iconify-font-7-stroke')
+}
+
+apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
