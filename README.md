@@ -1,7 +1,5 @@
 Intergrate with Font 7 Stroke icon font.
 
-> If you're migrating from version 1.X.X, please read the [migration guide](MIGRATION.md).
-
 -----
 
 ### Install
