@@ -27,6 +27,9 @@ public class MyApplication extends Application {
 ### USAGE
 
 [See original author guide](https://github.com/JoanZapata/android-iconify)
+
+![](images/demo.png)
+
 -----
 
 ## Contributions
