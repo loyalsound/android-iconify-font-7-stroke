@@ -1,4 +1,4 @@
-Intergrate with Font 7 Stroke icon font.
+Intergrate with [Font 7 Stroke icon font](http://themes-pixeden.com/font-demos/7-stroke/).
 
 -----
 
