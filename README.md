@@ -1,4 +1,4 @@
-Intergrate with [Font 7 Stroke icon font](http://themes-pixeden.com/font-demos/7-stroke/).
+Intergrate [Android-Iconify](https://github.com/JoanZapata/android-iconify) with [Font 7 Stroke icon font](http://themes-pixeden.com/font-demos/7-stroke/).
 
 -----
 
@@ -35,6 +35,10 @@ public class MyApplication extends Application {
 ## Contributions
 
 * Thanh Nguyen [@9you](https://github.com/9you)
+
+## Credit
+
+Thanks [@JoanZapata](https://github.com/JoanZapata) for great lib
 
 ## License
 
