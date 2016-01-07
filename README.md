@@ -8,6 +8,7 @@ Declare your dependency.
 
 ```gradle
 dependencies {
+    compile 'com.joanzapata.iconify:android-iconify:2.1.1'
     compile 'com.ls.iconify:font-7-stroke:0.0.1'
 }
 ```
